@@ -1,0 +1,292 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Oct 2021, 10:13:25 AM
+    Author     : Sanele
+*/
+
+/*Menu*/
+.username{
+    text-align: center;
+    background: red;
+    color: black;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+.formMain {
+  background-color: #15172b;
+  box-sizing: border-box;
+  padding: 5px;
+  flex: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255,255,255);
+  font-family: "Consolas", sans-serif;
+}
+
+#wrapper{
+    margin: 4px auto 4px auto;
+    border: 4px solid #888;
+    border-radius: 5px;
+}
+
+.user {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    background-color: lightskyblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #15172b;
+}
+
+li {
+  float: left;
+  padding: 15px 5px;
+}
+
+select {
+    width: 110px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.item{
+    background-color: rgb(255,255,255);
+    border: 2px solid maroon;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#menu{
+    border: 2px solid #000;
+    border-radius: 5px;
+    height: 73px;
+    padding: 0px 14px 32px 26px;
+    background-color: skyblue;
+    text-align: left;
+    font-size: 85%;
+    overflow: hidden;
+}
+
+
+/*Sign up form */
+
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 320px;
+  margin: 4px auto 4px auto;
+  flex: auto;
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.textarea-container {
+    height: 80px;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: #15172b;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: #dc2f55;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+
+
+/**/
+.center{
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+/*Logo*/
+#logo{
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    background-color: skyblue;
+    width: 100%;
+}
+
+ul li {
+    border-top: 1px solid #E7E7E7;
+    overflow: hidden;
+}
+
+ul li {
+    text-align: center;
+}
+
+ul li .standout {
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #383838;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 17px 0 10px;
+    padding: 6px 6px 6px 8px;
+}
+
+p {
+    color: white;
+    padding: 10px;
+}
+
+.button_slide {
+  color: black;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 skyblue;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 skyblue;
+}
+
+#footer{
+    font-size: 100%;
+    color: white;
+    padding: 14px 16px 0 0;
+    border: 2px solid #000;
+    clear: both;
+    position: relative;
+}
